@@ -27,6 +27,11 @@ inputs:
     description: "Docker File Directory, Default Current Directory (.)"
     required: false
     default: "."
+  node_env:
+    description: "NODE_ENV, staging, production"
+    required: false
+    default: "production"
+
 outputs:
   image_pull_url:
     description: "Image Pull Url,eg: docker pull image_pull_url"
