@@ -27,8 +27,8 @@ inputs:
     description: "Docker File Directory, Default Current Directory (.)"
     required: false
     default: "."
-  node_env:
-    description: "NODE_ENV, staging, production"
+  channel:
+    description: "CHANNEL, staging, production"
     required: false
     default: "production"
 
